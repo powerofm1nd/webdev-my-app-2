@@ -2,6 +2,6 @@ import { Button } from 'react-bootstrap';
 export default function LoginButton({ShowAuthModalForm}) 
 {
     return (
-        <Button variant="light" onClick={()=> ShowAuthModalForm()}>Login</Button>
+        <Button variant="light" onClick={()=> ShowAuthModalForm()}  className='m-1'>Login</Button>
     );
 }

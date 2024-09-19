@@ -1,4 +1,4 @@
-const MyFooter = () => {
+const Footer = () => {
     return (
         <div className="container">
             <footer className="py-3 my-4">
@@ -8,4 +8,4 @@ const MyFooter = () => {
     )
 };
 
-export default MyFooter;
+export default Footer;
